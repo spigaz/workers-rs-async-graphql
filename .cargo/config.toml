@@ -1,0 +1,6 @@
+[build]
+target = "wasm32-unknown-unknown"
+target-dir = ".cargo/target"
+
+[target.wasm32-unknown-unknown]
+runner = 'wasm-bindgen-test-runner'
